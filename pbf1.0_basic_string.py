@@ -7,11 +7,9 @@ print("It's going to be a long road ahead!")
 print("\tHey no pushing.")
 
 print("\tKnock it off!")
-# break
 
 #to add new lines to our string and produce a combination we"ll use "Colors:" and "\n", run it!
 print("Colors:\nred\ngreen\nblue")
 
-# break
 #we can also add a tab in with making our new lines, run it!
 print("Colors:\n\tred\n\tgreen\n\tblue")
