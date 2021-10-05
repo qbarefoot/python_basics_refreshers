@@ -2,7 +2,7 @@
 garden = ["beans", "peppers", "tomatoes", "onions", "basil"]
 print(garden)
 
-#you can access a certain elements in a list by listing the index in the print statement, run it!
+#you can access a certain elements in a list by listing the index in the print statement "remember the index starts at "0" instead of "1", run it!
 garden = ["beans", "peppers", "tomatoes", "onions", "basil"]
 print(garden[0])
 print(garden[3])
