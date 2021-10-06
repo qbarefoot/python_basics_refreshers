@@ -1,10 +1,10 @@
 #we can use a "for" loop to cycle through the names of elements in a list.
-guns = [ "winchestor", "remington", "colt", "savage", "henry", "smith & wesson"]
+guns = [ "winchester", "remington", "colt", "savage", "henry", "smith & wesson"]
 for gun in guns:
     print(gun)
 
 #you can use in a "f-string" in a "for" loop as well to print multiple messages that include all elements in a list.
-guns = [ "winchestor", "remington", "colts", "savage", "henry", "smith & wesson"]
+guns = [ "winchester", "remington", "colt", "savage", "henry", "smith & wesson"]
 for gun in guns:
     print(f"A {gun.title()}, is really expensive!")
     print(f"I will have to save up money to buy a {gun.title()}.")

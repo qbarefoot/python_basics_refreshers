@@ -13,16 +13,16 @@ favorite_food = food.pop(2)
 print(f"I love eating, {favorite_food.lower()}.")
 
 #you can use the ".remove" statement to delete an element from the list and give a reason variable wise for being removed.
-destination = [ "New Orleans", "Los Angeles", "New York", "Dallas", "Seattle" ]
+destination = [ "new orleans", "los angeles", "new york", "dallas", "seattle" ]
 print(destination)
 
-destination.remove("New Orleans")
+destination.remove("new orleans")
 print(destination)
 
-new_destination = [ "Austin", "Portland", "San Francisco", "Raleigh", "Atlanta" ]
+new_destination = [ "austin", "portland", "san francisco", "raleigh", "atlanta" ]
 print(new_destination)
 
-too_far = "Portland"
+too_far = "portland"
 new_destination.remove(too_far)
 print(new_destination)
 print(f"\nA plane ride to {too_far.title()} is 8 hours!")

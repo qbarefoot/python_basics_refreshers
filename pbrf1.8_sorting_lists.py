@@ -1,15 +1,15 @@
 #we can use the ".sort()" statement to put a list in alphabetical order.
-horses = [ "Appalosa", "Fresian", "Mustang", "Clydesdale", "Arabian" ]
+horses = [ "appalose", "fresian", "mustang", "clydesdale", "arabian" ]
 horses.sort()
 print(horses)
 
 #we can also arrange our list in alphabetical order backwards with the ".sort(reverse=True)".
-horses = [ "Appalosa", "Fresian", "Mustang", "Clydesdale", "Arabian" ]
+horses = [ "appalose", "fresian", "mustang", "clydesdale", "arabian" ]
 horses.sort(reverse=True)
 print(horses)
 
 #you can maintain your original list but presented it in a sorted order with the "sorted() statement"
-horses = [ "Appalosa", "Fresian", "Mustang", "Clydesdale", "Arabian" ]
+horses = [ "appalose", "fresian", "mustang", "clydesdale", "arabian" ]
 
 print("See our original list")
 print(horses)
